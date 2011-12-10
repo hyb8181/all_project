@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<RelativeLayout android:id="@+id/titleLayout"
+		android:layout_height="28dip"
+		android:layout_width="fill_parent"
+		android:layout_marginRight="20dip"
+		>
+		<!--右侧展开图片 -->
+		<ImageView android:id="@+id/faqimage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:background="@drawable/setting_suggest_state"
+			/>
+		<!-- 问题标题 -->
+		<TextView android:id="@+id/faqquestion"
+					android:layout_width="wrap_content"
+					android:layout_height="25dip"
+					android:layout_alignParentLeft="true"
+					android:layout_toLeftOf="@+id/faqimage"
+					android:textColor="@color/black"
+					android:textSize="18dip"
+					android:ellipsize="marquee"
+					android:singleLine="true"/>
+	</RelativeLayout>
+	<!-- 问题答复-->
+	<TextView android:id="@+id/faqanswer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/titleLayout"
+				android:layout_toLeftOf="@+id/faqimage"
+				android:layout_marginLeft="20dip"
+				android:layout_marginRight="20dip"
+				android:textSize="16dip"
+				android:visibility="gone"
+				android:textColor="@color/black"
+				android:text="使,吧,吧...."/>			
+</RelativeLayout>

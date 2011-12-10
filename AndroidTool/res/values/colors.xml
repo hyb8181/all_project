@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FF191919</color>
+    <color name="grid_dark_background">#EB191919</color>     
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="snag_callout_color">#F444</color>
+
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="centername_color">#00A199</color>
+    <color name="red">#ff0000</color>
+	<color name="white">#ffffff</color>
+	<color name="gray">#bbbbbb</color>
+	<color name="lightgray">#c0c0c0</color>
+	<color name="pink">#f2e7b9</color>
+	<color name="blue">#0000ff</color>
+	<color name="yellow">#ffff00</color>
+	<color name="text_bar">#99a0a0a0</color>
+	<color name="black">#000000</color>
+	<color name="green">#00cc00</color>
+	<color name="orange">#ff8400</color>
+	<color name="trans_info_list_bk">#e0fff2ea</color>
+	<color name="red_title">#ec0000</color>
+	<color name="red_view">#262626</color>
+	<color name="bc_red">#9b0033</color>
+	<color name="bg_color">#ffece0</color>
+	<color name="addcontact_head">#E6E6E6</color>
+	<color name="item_title">#333333</color>
+	<color name="edit_textcolor">#B3B3B3</color>
+	<color name="contacts_info_name">#333333</color>
+	<color name="contacts_info_nickname">#808080</color>
+	<color name="call_log_item_count">#67AA9C</color>
+	<color name="call_log_item_name">#4D4D4D</color>
+	<color name="call_log_item_number">#808070</color>
+	<color name="call_log_item_divider">#E6E6E6</color>
+	<color name="call_log_item_divider_title">#666666</color>
+	<color name="call_log_item_divider_focus">#00a199</color>
+	<color name="call_info_text">#333333</color>
+	<color name="call_info_date">#808080</color>
+	<color name="call_log_for_dial_name">#333333</color>
+	<color name="call_log_for_dial_number">#666666</color>
+	<color name="divider_green">#669999</color>
+	<color name="text_gray">#333333</color>
+	<color name="text_green">#00A199</color>
+	<color name="text_little_gray">#999999</color>
+	
+</resources>

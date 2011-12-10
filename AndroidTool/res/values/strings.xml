@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidToolActivity!</string>
+    <string name="app_name">AndroidTool</string>
+    <string name="enter_popup_activity">进入弹出框界面</string>
+    <string name="show_popupbox">弹出提示框</string>
+    <string name="show_progressbar">弹出进度条</string>
+    <string name="busy">繁忙中,请稍后</string>
+    <string name="prompt">提示</string>
+    <string name="cancle">取消</string>
+    <string name="thisissimpleprompt">"这是一个简单的弹出对话框的 Demo"</string>
+	<string name="setting_question">FAQ帮助</string>
+    <string name="version_update">软件更新</string>
+	<string name="setting_contactus">联系我们</string>
+    <string name="suggestion">反馈建议</string>
+	<string name="setting_contact_us_version">客络通讯录V1.0</string>
+	<string name="setting_contact_us_name">客络信息技术2011</string>
+	<string name="setting_contact_us_website">产品网址:www.k-net.cn</string>
+	<string name="setting_contact_us_weibo">微博:weibo.k-net.com</string>
+	<string name="setting_contact_us_qq">QQ群:998998988</string>
+	<string name="setting_contact_us_service">客服电话:021-61671661-119</string>
+	<string name="setting_contact_us_business">商务联系:021-61671661-118</string>
+	<string name="test_jni">jni测试</string>
+	<string name="hession_test">hession测试</string>
+
+</resources>

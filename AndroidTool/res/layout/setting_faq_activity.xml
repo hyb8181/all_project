@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white">
+  <!-- 标题栏 -->
+  <TextView android:id="@+id/faq_title_text"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:textSize="18sp"
+  	android:textColor="@color/white"
+  	android:gravity="center"
+  	android:text="@string/setting_question"
+  	android:background="@drawable/title_bar_bg"/>
+  	<!-- 问题列表 -->	
+	<ListView android:id="@+id/list_faq" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:listSelector="@drawable/lifenumber_list_selected"
+		android:scrollbars="none"
+		android:cacheColorHint="#00000000"
+		android:divider = "@color/white"/>
+</LinearLayout>

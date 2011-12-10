@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="100px"
+	android:layout_height="100px"
+	android:orientation="vertical">
+
+  	<TextView
+		android:id="@+id/SkipTip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="产品更新"
+		android:textSize="30px"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal">
+	</TextView>
+	<CheckBox android:id="@+id/skipcheck"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+	    android:text="选中"
+		android:layout_margin="6dip">
+	</CheckBox>
+	
+
+</LinearLayout>
