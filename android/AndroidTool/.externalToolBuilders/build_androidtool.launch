@@ -5,7 +5,7 @@
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_BUILD_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;resources&gt;&#13;&#10;&lt;item path=&quot;/AndroidTool/jni/Android.mk&quot; type=&quot;1&quot;/&gt;&#13;&#10;&lt;item path=&quot;/AndroidTool/jni/ndk_main.c&quot; type=&quot;1&quot;/&gt;&#13;&#10;&lt;item path=&quot;/AndroidTool/jni/ndk_programming_rule.c&quot; type=&quot;1&quot;/&gt;&#13;&#10;&lt;item path=&quot;/AndroidTool/jni/ndk_string.c&quot; type=&quot;1&quot;/&gt;&#13;&#10;&lt;/resources&gt;}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="d:\cygwin\bin\bash.exe"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,auto,clean"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--login -c &quot;cd /cygdrive/f/workspace/svn.google/android/AndroidTool/jni &amp;&amp; $ANDROID_NDK_ROOT/ndk-build&quot;"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--login -c &quot;cd /cygdrive/f/workspace/git.github/android/AndroidTool/jni &amp;&amp; $ANDROID_NDK_ROOT/ndk-build&quot;"/>
 <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="d:\cygwin\bin"/>
 </launchConfiguration>
