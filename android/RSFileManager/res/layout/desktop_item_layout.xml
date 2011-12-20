@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="55dip"
+    android:layout_height="55dip"
+    android:background="@drawable/desktop_item_background"
+    android:padding="3dip"
+    android:layout_margin="5dip"
+    >
+    	<ImageView android:id="@+id/destop_item_icon"
+    		android:scaleType="fitCenter"
+    		android:gravity="center"
+    		android:layout_width="30dip"
+    		android:layout_height="30dip"
+			android:src="@drawable/folder_desktop"
+    	/>
+    	<TextView android:id="@+id/desktop_item_name"
+    		android:layout_below="@id/destop_item_icon"
+    		android:layout_width="wrap_content"
+    		android:layout_height="fill_parent"
+    		android:gravity="center"
+    		android:text="Ruysing"
+    		android:textSize="10sp"
+    		android:singleLine="true"
+    		android:ellipsize="marquee"
+    		android:marqueeRepeatLimit="marquee_forever"
+    	/>
+</RelativeLayout>

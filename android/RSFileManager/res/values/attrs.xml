@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="BarMenuItem">
+		<attr name="text" format="string"/>
+		<attr name="text_size" format="dimension"/>
+		<attr name="text_color" format="color"/>
+		<attr name="drawable" format="reference"/>
+		<attr name="radius" format="dimension"/>
+		<attr name="dx" format="dimension"/>
+		<attr name="dy" format="dimension"/>
+		<attr name="center_width" format="boolean"/>
+		<attr name="center_height" format="boolean"/>
+		<attr name="borderColor" format="color"/>
+		<attr name="borderRadius" format="dimension"/>
+		<attr name="bgColor" format="color"/>
+	</declare-styleable>
+</resources>
