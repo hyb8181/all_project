@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="loading">"欢迎进入中国最大的手机交友网，界面正在加载中，请稍后..."</string>
+    <string name="test">"见到我开心吧!"</string>
+    <string name="hello">"欢迎进入天下网，更多惊喜等着您!"</string>
+    
+    <string name="app_name">"TX Client"</string>
+    <string name="login_suc">"恭喜您！登录成功"</string>
+    <string name="login_no_recorde">"用户不存在"</string>
+    <string name="login_sys_err">"服务器发生异常"</string>
+    <string name="connect_error">"连接失败！"</string>
+    <string name="create_file_error">"创建文件路径失败"</string>
+    <string name="file_not_exist">"文件不存在"</string>
+    <string name="is_first_page">"您已回退到了首页"</string>
+    
+    <string name="flat_name">"天下社区"</string>
+    <string name="flat_name_news">"天下新闻"</string>
+    <string name="flat_name_read">"天下阅读"</string>
+    <string name="flat_name_fate">"天下星座"</string>
+    <string name="flat_name_huangdao">"天下黄历"</string>
+    <string name="flat_name_farm">"天下农场"</string>
+    <string name="flat_name_jianghu">"天下江湖"</string>
+    <string name="flat_name_gold">"天下圣衣"</string>
+    <string name="flat_name_pet">"天下宠物"</string>
+    <string name="flat_name_chat">"天下聊吧"</string>
+    <string name="flat_name_space">"天下空间"</string>
+    <string name="flat_name_love">"天下交友"</string>
+</resources>

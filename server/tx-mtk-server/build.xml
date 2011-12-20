@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+	tx-open 3.0 ant build
+	author: sunny
+-->
+<project name="tx-open-manage ant build" basedir="." default="make.jar_module">
+	<property name="dir.project" value="${basedir}" />
+	<property name="dir.project.web_module" value="${dir.project}/WebRoot" />
+	<property name="dir.project.lib" value="${dir.project.web_module}/WEB-INF/lib" />
+	<property name="dir.project.src" value="${dir.project}/src" />
+	<property name="dir.project.compile" value="${dir.project.web_module}/WEB-INF/classes" />
+	<property name="dir.project.build" value="${dir.project}/build" />
+	<property name="deploy.file.jar_module" value="tx-mtk-server-1.0.jar" />
+
+	<!-- 环境变量配置 -->
+	<path id="classpath">
+		<fileset dir="${dir.project.lib}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${dir.project.build}">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="${dir.project.compile}" />
+	</path>
+
+	<!-- 编译Jar-->
+	<target name="make.jar_module">
+		<jar destfile="${dir.project.build}/${deploy.file.jar_module}">
+			<fileset dir="${dir.project.compile}">
+				<include name="**/*.class" />
+			</fileset>
+		</jar>
+		
+	</target>
+
+	<!-- 清除文件 -->
+	<target name="clean">
+		<delete dir="${dir.project.build}" />
+	</target>
+
+	<!-- 初始化 -->
+	<target name="init">
+		<mkdir dir="${dir.project.build}" />
+	</target>
+
+	<!-- 编译所有文件 -->
+	<target name="make" depends="clean,init,make.jar_module" />
+
+
+</project>

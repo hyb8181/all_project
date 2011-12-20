@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<TextView android:text="是三速速速速速速是" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+<TextView android:text="三的法师的法师的发" android:id="@+id/TextView02" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+<TextView android:text="的归根到底个地方飞" android:id="@+id/TextView03" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</FrameLayout> 

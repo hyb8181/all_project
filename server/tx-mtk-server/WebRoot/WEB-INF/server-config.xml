@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<form-beans />
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/mtkserver/login" type="com.tx.mtk.server.action.LoginAction" validate="false">
+			<forward name="input" path="/login.jsp"></forward>
+			<forward name="suc" path="/loginsuc.jsp"></forward>
+		</action>
+	</action-mappings>
+	
+</struts-config>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<form-beans />
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/mtkclient/uploadphone" type="com.tx.mtk.client.phone.action.UploadPhoneAction" validate="false">
+		</action>
+		<action path="/mtkclient/viewnewphone" type="com.tx.mtk.client.phone.action.ViewNewPhoneAction" validate="false">
+		</action>
+		<action path="/mtkclient/viewalbum" type="com.tx.mtk.client.phone.action.ViewAlbumAction" validate="false">
+		</action>
+		<action path="/mtkclient/viewaphone" type="com.tx.mtk.client.phone.action.ViewAPhoneAction" validate="false">
+		</action>
+		<action path="/mtkclient/viewhandpickalbum" type="com.tx.mtk.client.phone.action.ViewHandPickAlbumAction" validate="false">
+		</action>
+		<action path="/mtkclient/createalbum" type="com.tx.mtk.client.phone.action.CreateAlbumAction" validate="false">
+		</action>
+		
+		<action path="/mtkclient/delalbum" type="com.tx.mtk.client.phone.action.DelAlbumAction" validate="false">
+		</action>
+		<action path="/mtkclient/updatealbum" type="com.tx.mtk.client.phone.action.UpdateAlbumAction" validate="false">
+		</action>
+		<action path="/mtkclient/viewallalbum" type="com.tx.mtk.client.phone.action.ViewAllAlbumAction" validate="false">
+		</action>
+
+		<action path="/mtkclient/sendmsg" type="com.tx.mtk.client.msg.action.SendMsgAction" validate="false">
+		</action>		
+		<action path="/mtkclient/listmsg" type="com.tx.mtk.client.msg.action.ListMsgAction" validate="false">
+		</action>		
+		<action path="/mtkclient/listfrd" type="com.tx.mtk.client.msg.action.ListFrdAction" validate="false">
+		</action>		
+		
+		
+		<action path="/mtkclient/judgepet" type="com.tx.mtk.client.pet.action.JudgePetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/adoptpet" type="com.tx.mtk.client.pet.action.AdoptPetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/updatepet" type="com.tx.mtk.client.pet.action.UpdatePetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/buyprop" type="com.tx.mtk.client.pet.action.BuyPropAction" validate="false">
+		</action>	
+		<action path="/mtkclient/listfrdpet" type="com.tx.mtk.client.pet.action.ListFrdPetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/synchropet" type="com.tx.mtk.client.pet.action.SynchroPetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/deletepet" type="com.tx.mtk.client.pet.action.DeletePetAction" validate="false">
+		</action>	
+		<action path="/mtkclient/listpetlog" type="com.tx.mtk.client.pet.action.ListPetLogAction" validate="false">
+		</action>	
+		
+		<action path="/mtkclient/mtksyn" type="com.tx.mtk.client.updata.action.SynAppAction" validate="false">
+		</action>	
+		
+		<action path="/mtkclient/update" type="com.tx.mtk.client.update.UpdateAction" validate="false">
+		</action>	
+		
+		<action path="/mtkclient/pbback" type="com.tx.mtk.client.phonebook.action.PhoneBookBackAction" validate="false">
+		</action>	
+		<action path="/mtkclient/pbsync" type="com.tx.mtk.client.phonebook.action.PhoneBookSyncAction" validate="false">
+		</action>	
+		
+		<action path="/mtkclient/test" type="com.tx.obj.test.ObjectTestAction" validate="false">
+		</action>
+		<action path="/mtkclient/testcode" type="com.tx.code.transfer.CodeTestAction" validate="false">
+		</action>
+		
+		<action path="/androidclient/pbbackup" type="com.tx.android.client.phonebook.action.PhoneBookBackUpAction" validate="false">
+		</action>
+		<action path="/androidclient/pbrecover" type="com.tx.android.client.phonebook.action.PhoneBookRecoverAction" validate="false">
+		</action>
+		
+		<action path="/mtkclient/testupload" type="com.tx.mtk.client.phone.action.TestUpload" validate="false">
+		</action>
+		
+	</action-mappings>
+	
+</struts-config>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mtk-db>
+	<proxool>
+		<alias>mtkserver</alias>
+		<!-- <driver-url>jdbc:mysql://192.168.0.233:12407/txmtk?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url> -->
+		<driver-url>jdbc:mysql://192.168.0.203:12407/txmtk?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="tech1" />
+			<property name="password" value="waptx_tech1" />
+		</driver-properties>
+		
+		<maximum-connection-count>100</maximum-connection-count>
+		<maximum-active-time>172800000</maximum-active-time>
+		<maximum-connection-lifetime>180000000</maximum-connection-lifetime>
+		<simultaneous-build-throttle>100</simultaneous-build-throttle>
+		<house-keeping-test-sql>
+			select CURRENT_DATE
+		</house-keeping-test-sql>
+		<verbose>true</verbose>
+		<statistics>10s,1m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+	</proxool>
+	<proxool>
+		<alias>androidserver</alias>
+		<!-- <driver-url>jdbc:mysql://192.168.0.233:12407/txmtk?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url> -->
+		<driver-url>jdbc:mysql://192.168.0.203:12407/txandroid_pb?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="tech1" />
+			<property name="password" value="waptx_tech1" />
+		</driver-properties>
+		
+		<maximum-connection-count>100</maximum-connection-count>
+		<maximum-active-time>172800000</maximum-active-time>
+		<maximum-connection-lifetime>180000000</maximum-connection-lifetime>
+		<simultaneous-build-throttle>100</simultaneous-build-throttle>
+		<house-keeping-test-sql>
+			select CURRENT_DATE
+		</house-keeping-test-sql>
+		<verbose>true</verbose>
+		<statistics>10s,1m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+	</proxool>	
+	<proxool>
+		<alias>txmmanage</alias>
+		<driver-url>jdbc:mysql://192.168.0.203:12407/txmmanage?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="tech1" />
+			<property name="password" value="waptx_tech1" />
+		</driver-properties>
+		
+		<maximum-connection-count>100</maximum-connection-count>
+		<maximum-active-time>172800000</maximum-active-time>
+		<maximum-connection-lifetime>180000000</maximum-connection-lifetime>
+		<!-- <prototype-count>5</prototype-count> -->
+		<simultaneous-build-throttle>100</simultaneous-build-throttle>
+		<house-keeping-test-sql>
+			select CURRENT_DATE
+		</house-keeping-test-sql>
+		<verbose>true</verbose>
+		<statistics>10s,1m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+	</proxool>
+	<proxool>
+		<alias>txmcenter</alias>
+		<driver-url>jdbc:mysql://192.168.0.203:12407/txmcenter?useUnicode=true&amp;characterEncoding=GBK&amp;autoReconnect=true</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="tech1" />
+			<property name="password" value="waptx_tech1" />
+		</driver-properties>
+		
+		<maximum-connection-count>100</maximum-connection-count>
+		<maximum-active-time>172800000</maximum-active-time>
+		<maximum-connection-lifetime>180000000</maximum-connection-lifetime>
+		<!-- <prototype-count>5</prototype-count> -->
+		<simultaneous-build-throttle>100</simultaneous-build-throttle>
+		<house-keeping-test-sql>
+			select CURRENT_DATE
+		</house-keeping-test-sql>
+		<verbose>true</verbose>
+		<statistics>10s,1m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+	</proxool>
+</mtk-db>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.tx.farm" android:versionName="1.1" android:versionCode="2">
+	<application android:icon="@drawable/icon_lenovo" android:label="@string/flat_name_farm">
+		<activity android:name=".activity.SplashActivity"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".activity.TxActivity" 
+		android:theme="@android:style/Theme.NoTitleBar"
+		android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<!-- 
+		<activity android:name=".activity.TxHallActivity" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		-->
+		<activity android:name=".activity.TxHallWebActivity" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<activity android:name=".activity.MenuLayout" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<service android:name=".service.login.LoginService"></service>
+	</application>
+	<supports-screens android:largeScreens="true" android:anyDensity="true" />
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+</manifest> 

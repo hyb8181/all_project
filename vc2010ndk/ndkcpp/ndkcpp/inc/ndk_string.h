@@ -1,0 +1,1 @@
+extern int ndk_string_match();

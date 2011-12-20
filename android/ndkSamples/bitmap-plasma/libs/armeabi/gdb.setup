@@ -1,0 +1,2 @@
+set solib-search-path F:/workspace/bitmap-plasma/obj/local/armeabi
+directory F:/android-ndk-r7/platforms/android-8/arch-arm/usr/include F:/workspace/bitmap-plasma/jni F:/android-ndk-r7/sources/cxx-stl/system
