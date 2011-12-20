@@ -20,6 +20,7 @@ LOCAL_MODULE    := ndk_main
 LOCAL_SRC_FILES := \
     ndk_main.c \
     ndk_string.c \
+    ndk_timer.c \
     
 #gdb语句可去除
 LOCAL_CFLAGS := -ggdb 

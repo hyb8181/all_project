@@ -10,6 +10,7 @@
  ******************************************************************************/
 #include "ndk_global.h"
 #include "ndk_main.h"
+#include "ndk_timer.h"
 /******************************************************************************
  * Function: 		Java_com_AndroidTool_NdkMainActivity_ndkStringFromJNI
  * Description: 	HelloJni调用此JNI接口函数
@@ -62,7 +63,6 @@ Java_com_AndroidTool_NdkMainActivity_ndkAnalysisPerformance( JNIEnv* env, jobjec
  * Others:			log打印消耗时间
  ******************************************************************************/
 void ndk_analysisPerformance(void){
-
 	clock_t start,end;
 	int j,k;
 	start=clock();
@@ -76,23 +76,4 @@ void ndk_analysisPerformance(void){
 
 	//浮点数转为字符串
     LOGI("C语言性能测试: 时间=%f", (double)(end-start));
-
 }
-
-/******************************************************************************
- * Function: 		now_ms
- * Description: 	获取当前秒数
- * Calls: 			null
- * Called By:		null
- * Input: 			null
- * Output:			null
- * Return:			timer
- * Others:			null
- ******************************************************************************/
-static double now_ms(void)
-{
-    struct timeval tv;
-    gettimeofday(&tv, NULL);
-    return tv.tv_sec*1000. + tv.tv_usec/1000.;
-}
-
