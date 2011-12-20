@@ -110,5 +110,11 @@ int ndk_string_jump_match_test(){
 	}
 	return 0;
 }
+//获取本地时间
+//time_t rawtime;
+//struct tm * timeinfo;
+//
+//time (&rawtime);
+//timeinfo = localtime (&rawtime);
 
 
