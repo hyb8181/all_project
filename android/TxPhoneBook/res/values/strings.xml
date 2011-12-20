@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TxConnect!</string>
+    <string name="str_UploadBut">备份电话本</string>
+    <string name="str_DownloadBut">下载电话本</string>
+    <string name="app_name">TxConnect</string>
+</resources>
